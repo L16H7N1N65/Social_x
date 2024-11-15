@@ -8,16 +8,16 @@
 </head>
 <body class="bg-gray-100 font-sans">
 
-    <!-- Navbar -->
+    <!-- Navbar in index.php -->
     <nav class="bg-blue-600 p-4">
         <div class="container mx-auto flex justify-between items-center">
             <h1 class="text-white text-2xl font-semibold">Social Network</h1>
             <ul class="flex space-x-4">
-                <li><a href="#" class="text-white">Home</a></li>
-                <li><a href="#" class="text-white">Profile</a></li>
-                <li><a href="#" class="text-white">Messages</a></li>
-                <li><a href="#" class="text-white">Notifications</a></li>
-                <li><a href="#" class="text-white">Logout</a></li>
+                <li><a href="login.php" class="text-white">Login</a></li>
+                <li><a href="signin.php" class="text-white">Sign Up</a></li>
+                <li><a href="forgot_password.php" class="text-white">Forgot Password</a></li>
+                <li><a href="message.php" class="text-white">Messages</a></li>
+                <li><a href="index.php" class="text-white">Dashboard</a></li>
             </ul>
         </div>
     </nav>
