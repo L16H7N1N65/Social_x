@@ -29,7 +29,7 @@
         <div class="w-1/4 bg-white p-4 rounded-lg shadow-lg mr-4">
             <h2 class="text-lg font-semibold text-gray-700">User Profile</h2>
             <img src="https://via.placeholder.com/150" alt="Profile Picture" class="w-24 h-24 rounded-full mx-auto my-4">
-            <p class="text-gray-700 text-center">John Doe</p>
+            <p class="text-gray-700 text-center"> <?php echo $info_first_user['email'] ?></p>
             <p class="text-gray-500 text-center">Joined: January 2023</p>
             <button class="bg-blue-600 text-white w-full mt-4 py-2 rounded-lg">Edit Profile</button>
         </div>
