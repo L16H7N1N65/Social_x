@@ -6,6 +6,8 @@
   "scripts": {
     "build:css": "npx tailwindcss -i ./tailwind.css -o ./tailwind.css --watch"
   },
+    "build:css": "npx tailwindcss -i ./tailwind.css -o ./tailwind.css --watch"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,7 +16,12 @@
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15"
   },
-  "dependencies": {
-    "update": "^0.7.4"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L16H7N1N65/Social_x.git"
+  },
+  "bugs": {
+    "url": "https://github.com/L16H7N1N65/Social_x/issues"
+  },
+  "homepage": "https://github.com/L16H7N1N65/Social_x#readme"
 }
